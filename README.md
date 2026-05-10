@@ -52,7 +52,7 @@ Results are validated against dense matrix multiplication using a mixed absolute
 ## Build and Run
 
 ```bash
-gcc -lm -o run challenge.c
+gcc -o run challenge.c -lm
 ./run
 ```
 
